@@ -25,13 +25,9 @@ body {
 
 h1 {
 	color: #F2F2F2;
-	font-size: 3vmax;
+	font-size: 4vmax;
 	text-align: center;
 	font-weight: 700;
-}
-
-.header hr {
-	margin: 3vmin;
 }
 
 .main {
@@ -68,7 +64,7 @@ h1 {
 	flex-direction: row;
 	justify-content: space-evenly;
 	color: #F2F2F2;
-	font-size: 1.7vmax;
+	font-size: 2.5vmin;
 	text-align: center;
 	padding-bottom: 5vh;
 }
