@@ -21,6 +21,7 @@ body {
 	padding-top: 5vh;
 	place-items: center;
 	justify-content: center;
+	border-bottom: 1px solid #F2F2F2;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 {
 	font-size: 4vmax;
 	text-align: center;
 	font-weight: 700;
+	padding-bottom: 2vmin;
 }
 
 .main {
@@ -40,9 +42,12 @@ h1 {
 }
 
 .day {
-	font-style: italic;
-	font-size: 2vmax;
+	font-size: 3vmax;
 	font-weight: lighter;
+}
+
+.day:hover {
+	font-size: 5vmax;
 }
 
 .dayDate {
