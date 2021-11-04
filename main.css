@@ -22,11 +22,18 @@ body {
 .header {
 	display: flex;
 	flex-direction: column;
-	padding-top: 5vh;
+	padding-top: 1vh;
 	place-items: center;
 	justify-content: center;
 	border-bottom: 1px solid;
 	border-image: linear-gradient(to right, #010326, #F2F2F2, #F2F2F2, #010326) 47% 0%;
+}
+
+.logo {
+	height: 13vmax;
+	width: auto;
+	border-bottom: 1px solid;
+	border-image: linear-gradient(to right, #010326, #B9151E, #B9151E, #010326) 47% 0%;
 }
 
 h1 {
@@ -34,6 +41,7 @@ h1 {
 	font-size: 4vmax;
 	text-align: center;
 	font-weight: 700;
+	padding-top: 4vmin;
 	padding-bottom: 2vmin;
 }
 
@@ -51,16 +59,12 @@ h1 {
 	font-weight: lighter;
 }
 
-.day:hover {
-	font-size: 5vmax;
-}
-
 .dayDate {
 	font-size: 3vmax;
 }
 
 .timeDate {
-	color: #A62103;
+	color: #B9151E;
 	text-shadow: 3px 3px #F2F2F2;
 	font-size: 10vmax;
 }
