@@ -1,4 +1,4 @@
-document.body.style.background = "#A62103";
+document.body.style.background = "#B9151E";
 setTimeout(() => document.body.style.background = "", 1000);
 
 let clock = document.getElementById("clock");
