@@ -1,6 +1,3 @@
-document.body.style.background = "#B9151E";
-setTimeout(() => document.body.style.background = "", 1000);
-
 let clock = document.getElementById("clock");
 let appDays = document.getElementById("ndays");
 let appMonth = document.getElementById("nmonths");
@@ -26,7 +23,7 @@ const months = [
 ];
 let m = date.getMonth();
 strMonths = `${nowdays} ${months[m]} ${nowyears} года`;
-appMonth.innerHTML = strMonths;
+appMonth.textContent = strMonths;
 
 const days = [
 	'воскресенье',
@@ -39,7 +36,7 @@ const days = [
 ];
 let n = date.getDay();
 strDays = `Сегодня ${days[n]}`;
-appDays.innerHTML = strDays;
+appDays.textContent = strDays;
 
 
 setInterval(function () {
