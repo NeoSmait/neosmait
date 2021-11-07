@@ -4,7 +4,7 @@ let appMonth = document.getElementById("nmonths");
 
 let date = new Date();
 
-let nowdays = date.getDay();
+let nowdays = date.getDate();
 let nowyears = date.getFullYear();
 
 const months = [
